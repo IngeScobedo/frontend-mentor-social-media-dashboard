@@ -31,6 +31,7 @@ header {
   padding-bottom: 120px;
   border-radius: 0 0 25px 25px;
   background-color: #f8f9fe;
+  display: none;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h1 {
 }
 .top-card {
   margin-top: -70px;
+  display: none;
 }
 .wrapper {
   padding: 0 20px;
@@ -46,8 +48,6 @@ h1 {
 .header-h1 {
   font-family: "Inter";
   font-size: 20px;
-  
-  
 }
 .header-p {
   margin: 5px 0 20px 0;
@@ -93,7 +93,7 @@ h1 {
     to right,
     var(--Instagram-1) 0%,
     var(--Instagram-2) 100%
-  );  
+  );
 }
 .card.youtube::before {
   background: var(--YouTube);
@@ -116,7 +116,6 @@ h1 {
   display: block;
 }
 .card-followers-title {
-    
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 12px;
@@ -130,4 +129,54 @@ h1 {
 }
 .card-today i {
   margin-right: 3px;
+}
+
+/*OVERVIEW */
+
+
+.card-small {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  grid-row-gap: 1.2em;
+  background: #f0f3fa;
+  border-radius: 5px;
+}
+.card-small-views {
+  color: var(--Dark-Grayish-Blue-Text);
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.card-small-number-views {
+  font-size: 37px;
+  line-height: 0.9;
+  font-weight: 700;
+}
+.card-small p {
+  margin: 0;
+}
+.card-small-image {
+  text-align: right;
+}
+
+.card-small-percentage {
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  color: var(--Bright-Red);
+  justify-content: flex-end;
+  font-size: 15px;
+}
+.card-small-percentage span {
+  display: flex;
+  align-items: center;
+}
+.card-small-percentage i {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.overview-h2 {
+  font-size: 1em;
+  color: var(--Dark-Grayish-Blue-Text);
 }

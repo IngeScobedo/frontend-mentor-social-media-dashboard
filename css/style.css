@@ -2,7 +2,7 @@
   /*Primary colors*/
   --Lime-Green: hsl(163, 72%, 41%);
   --Bright-Red: hsl(356, 69%, 56%);
-  --Facebook: #168ef4;
+  --Facebook: #3b5998;
   --Twitter: hsl(203, 89%, 53%);
   --Instagram-1: hsl(37, 97%, 70%);
   --Instagram-2: hsl(329, 70%, 58%);
@@ -356,5 +356,7 @@ label.switch{
       var(--Toggle-dark-1) 100%
     );
   }
-  
+  .header-h1{
+    color: var(--White-Text)
+  }
 }
